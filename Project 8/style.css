@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(43, 43, 43);
+}
+img{
+    width: 30vw;
+}
+
+.leftbox{
+    max-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    flex-direction: column;
+    height: fit-content;
+    margin-left: 90px;
+    width: 45vw;
+    margin-top: 140px;
+}
+
+.leftbox span{
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 47px;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.rightbox{
+    height: 65vh;
+    max-height: 100vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 115px;
+    width: 35vw;
+    display: flex;
+    margin-left: 25px;
+    background-color: rgba(0, 0, 0, 0.172);
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#email{
+    background: #000;
+    color: white;
+    border: 2px solid rgb(43, 43, 43);
+    width: 397px;
+    margin-top: 23px;
+    height: 45px;
+    border-radius: 12px;
+    padding: 6px;
+}
+
+#pass{
+    background: #000;
+    color: white;
+    border: 2px solid rgb(43, 43, 43);
+    width: 397px;
+    margin-top: 6px;
+    height: 45px;
+    border-radius: 12px;
+    padding: 6px;
+}
+input{
+    font-size: 15px;
+    background-color: #000;
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login{
+    width: 397px;
+    height: 50px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 17, 255);
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    background: rgb(0, 17, 255);
+    color: white;
+}
+
+#forgot{
+    margin-top: 12px;
+}
+#forgot a{
+    text-decoration: none;
+}
+
+#forgot:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 34vw;
+    margin-top: 12px;
+}
+
+#new{
+    width: 300px;
+    height: 60px;
+    border: 2px solid rgb(32, 215, 32);
+    border-radius: 12px;
+    font-size: 18px;
+    background: rgb(32, 215, 32);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#new:hover{
+    background-color:  rgba(32, 215, 32, 0.782);
+    border: 2px solid rgba(32, 215, 32, 0.782);
+}
+
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(57, 57, 57);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    min-height: 10vh;
+    max-height: 100vh;
+    margin-top: -60px;
+    margin-right: 194px;
+}

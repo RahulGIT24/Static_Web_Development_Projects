@@ -1,0 +1,32 @@
+@media screen and (max-width:1000px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li a{
+        display: flex;
+        flex-direction: column;
+        margin-top: -40px;
+    }
+    header{
+        background: #2874f0;
+        height: 312px;
+    }
+    .slider img{
+        margin-top: 16px;
+    }
+    .card img{
+        overflow: hidden;
+    }
+    #searchbox{
+        overflow: hidden;
+        /* width: 12px; */
+    }
+
+}

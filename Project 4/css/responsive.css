@@ -1,0 +1,35 @@
+@media screen and (max-width: 1142px) {
+  header nav {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 54vh;
+    justify-content: center;
+    align-items: center;
+  }
+  #foot {
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav ul {
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #time {
+    margin-bottom: -11px;
+    text-align: center;
+    overflow: hidden;
+    height: 52px;
+    width: 35vh;
+  }
+  #select {
+    margin-bottom: 5px;
+    padding: 6px;
+    margin-left: 14px;
+  }
+}

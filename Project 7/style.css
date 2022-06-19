@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: rgb(33, 33, 33);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 30vw;
+    height: 25vh;
+}
+
+.box {
+    background-color: rgba(40, 40, 40, 0.256);
+    max-height: 1190%;
+    width: 39vw;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.box h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 37px;
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 1px;
+    color: grey;
+    padding: 7px;
+}
+
+.form1 {
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form1 #form0 input {
+    color: white;
+    height: 30px;
+    width: 200px;
+    border: 2px solid #0d0e0f43;
+    border-radius: 7px;
+    margin-right: 6px;
+    padding: 12px;
+}
+
+.form2 input {
+    width: 35vw;
+    height: 30px;
+    border: 2px solid #0d0e0f43;
+    border-radius: 7px;
+    margin-bottom: 8px;
+    padding: 12px;
+}
+
+.email form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#span {
+    font-size: 15px;
+    color: gray;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: right;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+#date{
+    color: white;
+}
+input{
+    background: #0d0e0f43;
+    font-weight: 500;
+    color: white;
+}
+
+.btn {
+    width: 144px;
+    background: rgb(4, 209, 4);
+    color: white;
+    height: 44px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border: 2px solid rgb(4, 209, 4);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    border: 2px solid rgb(4, 209, 4);
+    background: rgba(0, 255, 0, 0.934);
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button a {
+    margin-bottom: 21px;
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+    font-size: 22px;
+}
+
+.info {
+    color: gray;
+    padding: 12px;
+    margin: 12px;
+}
+
+.info span a {
+    text-decoration: none;
+}
+
+.info span {
+    font-size: 13px;
+}
+
+.info2 {
+    margin-top: 12px;
+    margin-bottom: -12px;
+}
+
+.gender{
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#male{
+    margin-top: 8px;
+}
+.malebox{
+    border: 1px solid black;
+    margin-right: 328px;
+    border-radius: 5px;
+    width: 141px;
+    padding: 6px;
+    height: 31px;
+}
+
+#female{
+    margin-top: 8px;
+}
+.femalebox{
+    border: 1px solid black;
+    margin-right: 3px;
+    border-radius: 5px;
+    width: 141px;
+    padding: 6px;
+    margin-top: -46px;
+    height: 31px;
+}
+.custombox{
+    border: 1px solid black;
+    margin-left: 321px;
+    border-radius: 5px;
+    width: 141px;
+    padding: 6px;
+    margin-top: -46px;
+    height: 31px;
+}
+#custom{
+    margin-top: 8px;
+}

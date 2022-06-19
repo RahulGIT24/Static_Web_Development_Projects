@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&family=Oswald:wght@300&display=swap");
+.class {
+  display: flex;
+  justify-content: end;
+  /* flex-direction: column; */
+  border: 2px solid yellow;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.images {
+  height: 218px;
+  width: 307px;
+  padding: 49px;
+  margin-top: 110px;
+  display: flex;
+}
+
+.content {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  background: yellow;
+  color: black;
+  margin-top: 33px;
+  margin-left: 27px;
+  margin-bottom: 37px;
+  border: 5px solid black;
+}
+
+.class1 {
+  display: flex;
+  justify-content: end;
+  /* flex-direction: column; */
+  border: 2px solid yellow;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.images1 {
+  height: 218px;
+  width: 307px;
+  padding: 49px;
+  margin-top: 110px;
+  display: flex;
+}
+
+.content1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  background: yellow;
+  color: black;
+  margin-top: 33px;
+  margin-left: 27px;
+  margin-bottom: 37px;
+  border: 5px solid black;
+}
+
+.class2 {
+  display: flex;
+  justify-content: end;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  /* flex-direction: column; */
+  border: 2px solid yellow;
+}
+.images2 {
+  height: 218px;
+  width: 307px;
+  padding: 49px;
+  margin-top: 110px;
+  display: flex;
+}
+
+.content2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  background: yellow;
+  color: black;
+  margin-top: 33px;
+  margin-left: 27px;
+  margin-bottom: 37px;
+  border: 5px solid black;
+}
+
+.class3 {
+  display: flex;
+  justify-content: end;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  /* flex-direction: column; */
+  border: 2px solid yellow;
+}
+.images3 {
+  height: 218px;
+  width: 307px;
+  padding: 49px;
+  margin-top: 110px;
+  display: flex;
+}
+
+.content3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  background: yellow;
+  color: black;
+  margin-top: 33px;
+  margin-left: 27px;
+  margin-bottom: 37px;
+  border: 5px solid black;
+}
+
+.container img{
+    cursor: pointer;
+}
+

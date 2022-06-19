@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300&family=Montserrat:wght@200&display=swap');
+
+:root {
+    --main-bg-color: #2900de;
+}
+
+:root {
+    --main-color: #fffb00;
+}
+
+:root {
+    --font-nf: 'Lato', sans-serif;
+}
+
+:root {
+    --font-para: 'Montserrat', sans-serif;
+}
+
+:root {
+    --font-head: 'Koulen', cursive;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: opa 1s 1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*! Navbar CSS */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 200000;
+}
+
+nav {
+    background-color: var(--main-bg-color);
+    color: white;
+    max-height: 40vh;
+    min-height: 15vh;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: 48px;
+    padding: 0px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    font-size: 36px;
+    color: white;
+    font-family: var(--font-nf);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+nav img {
+    height: 57px;
+    width: 87px;
+    margin-right: 1011px;
+    position: absolute;
+}
+
+/*! Footer CSS */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    min-height: 12vh;
+    color: white;
+    font-size: 50px;
+    font-family: var(--font-nf);
+    background-color: var(--main-bg-color);
+}
+
+/*! BUTTON CSS */
+.btn {
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+    border: 2px solid #fffb00;
+    border-radius: 9px;
+    width: 67px;
+    height: 48px;
+    padding: 3px;
+    font-weight: bold;
+    margin: 0px 19px;
+}
+.btn a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.btn:hover {
+    /* color: #2900de; */
+    /* background: #fffb00; */
+    font-weight: bold;
+    /* border: 2px solid #2900de; */
+}
+.btn a:hover{
+    font-weight: bold;
+    /* color: #2900de; */
+}
+
+/*! MAIN CSS */
+main {
+    min-height: calc(100vh - 12vh - 15vh);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    background: var(--main-color);
+    margin-top: 0px;
+}
+
+/* Animations */
+
+@keyframes opa {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.heading h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    color: var(--main-bg-color);
+    padding-top: 31px;
+    background: var(--main-color);
+    font-size: 26px;
+    animation: opa 3s ease 1 forwards;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#moto {
+    color: var(--main-bg-color);
+    border: 2px solid #2900de;
+    border-radius: 15px;
+    height: 50px;
+    background-color: var(--main-color);
+    width: 344px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    min-height: 85vh;
+    margin-top: 30px;
+    width: 84vw;
+    border: 2px solid #2900de;
+}
+
+.box2 {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    min-height: 90vh;
+    /* max-height: 100vh; */
+    width: 84vw;
+    margin-top: 30px;
+    border: 2px solid #2900de;
+}
+
+.box3 {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    min-height: 63vh;
+    /* max-height: 100vh; */
+    width: 84vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #2900de;
+}
+
+.para {
+    font-size: 30px;
+    font-size: 30px;
+    font-family: var(--font-para);
+    font-weight: bold;
+    margin: 16px 60px;
+}
+
+.slider {
+    margin-top: 23px;
+}
+
+.slider img {
+    height: 400px;
+}
+
+.h1 {
+    text-align: center;
+    font-family: var(--font-head);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Java Script Clock Project</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Reach US</li>
+          <li>Contact US</li>
+          <li>About</li>
+        </ul>
+        <p id="select">Browse Time Zone :</p>
+        <select name="cars" id="time">
+          <option value="Indian" class="zone">
+            <p id="IST" onclick="click">Indian Standard Time: default</p>
+          </option>
+          <option value="United" class="zone">
+            <p id="UK" onclick="click">United Kingdom</p>
+          </option>
+        </select>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="box">
+        <h1>Quartz</h1>
+        <span id="date"></span>
+        <h1 id="heading">Date</h1>
+        <p id="date1"></p>
+      </div>
+    </div>
+    <footer id="foot"><p>Copyright &copy; Reserved</p></footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

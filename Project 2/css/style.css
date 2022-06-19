@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&family=Rajdhani:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#headerh1 {
+  font-family: "My Soul", cursive;
+  display: flex;
+  background: yellow;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
+  z-index: 1200000000000;
+}
+header nav {
+  background: #000;
+  height: 87px;
+  /* position: sticky; */
+}
+header nav ul li {
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 26px;
+  margin: 22px 41px;
+  list-style: none;
+  padding: 5px;
+}
+
+.shake {
+  height: 60vh;
+}
+
+header nav ul li:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+#searchbox {
+  width: 400px;
+  height: 26px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#searchbox:hover {
+  border: 2px solid yellow;
+  /* background: yellow; */
+  color: black;
+}
+
+#searchbox::placeholder {
+  font-weight: bold;
+}
+#btn {
+  width: 53px;
+  height: 25px;
+  margin-left: -31px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+#btn:hover {
+  background: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  height: 197px;
+}
+
+.items1 ul li {
+  list-style: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 11px;
+  margin-left: 128px;
+  text-align: center;
+  /* width: 12px; */
+}
+.items ol li {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -152px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+footer ul li:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+.container {
+  min-height: calc(100vh - 171px - 87px);
+}
+
+#foot {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 154px;
+}
+
+.items ol li {
+  margin-top: -13px;
+  margin-bottom: -69px;
+  margin-right: 50px;
+}
+
+.items1 {
+  width: 35vw;
+  margin-top: 18px;
+  margin-left: -91px;
+}
+
+.footpara {
+  margin: -169px;
+}
+
+#bgimg {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1200000000000;
+}

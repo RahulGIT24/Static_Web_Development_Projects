@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login to Saraswati Public School</title>
+</head>
+<style>
+   /* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#button2 {
+    background-color: blue;
+    color: yellow;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+#button2:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  background: blue;
+  padding: 10px 18px;
+  color: yellow;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+#heading{
+    color: blue;
+    text-align: center;
+    margin: 12px 0;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <img src="images/ico.png" alt="icon">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="https://www.google.co.in/maps/place/ARIHANT+INTERNATIONAL+SCHOOL+NAHAN/@30.5748942,77.2722551,17z/data=!4m5!3m4!1s0x390f0d5a623c7e57:0x80e5df3445b6fb3a!8m2!3d30.5748896!4d77.2744438" target="main">Reach</a></li>
+          </ul>
+          <button class="btn"><a href="login.html">Login</a></button>
+        <button class="btn"><a href="signup.html">Sign Up</a></button>
+        </nav>
+      </header>
+      <main>
+        <form action="action_page.php" method="post">
+            <h1 id="heading">Login Here</h1>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit" id="button2">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#e5ff00">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+          
+      </main>
+      <footer>
+        <div class="foot">Get Admission Now!</div>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  scroll-behavior: smooth;
+  background-image: url("css/bg.jpg");
+}
+nav {
+  background: #000;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+}
+
+header nav ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin: 30px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+}
+
+nav ul li:hover {
+  color: red;
+  font-weight: bold;
+}
+
+#select {
+  color: white;
+  margin-left: -46px;
+  padding: 38px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#time {
+  height: 34px;
+  color: red;
+  background: black;
+  border: 2px solid red;
+  border-radius: 12px;
+}
+
+.container {
+  display: flex;
+  background: rgb(48, 48, 48);
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  animation: load 1s linear infinite forwards;
+  /* border: 2px solid red; */
+  margin-top: 12px;
+  min-height: 326px;
+  background: #000;
+  min-width: 326px;
+  border-radius: 100%;
+}
+
+.box h1 {
+  text-align: center;
+  margin-top: 42px;
+  font-family: "Tapestry", cursive;
+  margin-right: 12px;
+  font-size: 30px;
+}
+.container {
+  min-height: calc(100vh - 15vh - 15vh);
+}
+.container h1 {
+  color: white;
+}
+#foot {
+  background: black;
+  height: 15vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  font-family: "Lato", sans-serif;
+}
+
+#date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  font-size: 50px;
+  color: red;
+}
+
+#date1 {
+  margin-left: -8px;
+  margin-top: 12px;
+  font-size: 25px;
+  color: red;
+  text-align: center;
+}
+
+#heading {
+  margin-top: 11px;
+  font-family: "Tapestry", cursive;
+}
+
+@keyframes load {
+  0% {
+    border: 2px solid white;
+  }
+  100% {
+    border: 2px solid red;
+  }
+}
