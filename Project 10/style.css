@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,200&display=swap');
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Styling header */
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#description {
+    font-size: 22px;
+    font-family: 'Albert Sans', sans-serif;
+    font-style: italic;
+}
+
+/* Styling container and center-box */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.center-box {
+    background: rgb(22 22 64);
+    width: 50%;
+    min-height: 40rem;
+    max-height: 100rem;
+}
+
+/* Styling form */
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+#survey-form {
+    margin-left: 39px;
+    margin-top: 12px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.form-control {
+    color: rgb(203, 196, 185);
+    background-color: rgb(21, 24, 25);
+    border-color: rgb(63, 69, 72);
+    padding-left: 12px;
+    width: 90%;
+    font-size: 15px;
+    height: 37px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#comments {
+    width: 85%;
+    height: 100px;
+}
+
+#submit {
+    background-color: #0cba0c;
+    width: 85%;
+    height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px;
+    border-radius: 10px;
+}
