@@ -5,7 +5,16 @@
         align-items: center;
         flex-direction: column;
     }
-
+    #foot{
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 23px;
+    }
     .leftbox {
         display: flex;
         justify-content: center;
@@ -13,7 +22,7 @@
         flex-direction: column;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 10px;
+        margin-top: 117px;
     }
 
     img {
@@ -28,14 +37,11 @@
     }
 
     .rightbox {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        display: block;
         min-width: 90%;
         max-width: 100vw;
-        min-height: 65vh;
-        max-height: 80vh;
+        min-height: 76vh;
+        max-height: 100vh;
         margin-top: 49px;
     }
 
@@ -54,7 +60,14 @@
 
 @media only screen and (max-width: 408px) {
     .section1{
+        display: block;
         min-width: none;
-        max-width: 200px;
+        max-width: 100px;
+    }
+    .leftbox span{
+        font-size: 12px;
+    }
+    #foot{
+        font-size: 12px;
     }
 }
