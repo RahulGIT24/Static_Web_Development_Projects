@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>Facebook-Log In or Sign Up</title>
 </head>
 <body>
@@ -19,30 +20,28 @@
         <div class="rightbox">
            <div class="modal">
             <form action="php">
-                <input type="text" placeholder="Email address or Phone Number" id="email">
+                <input type="text" placeholder="Email address or Phone Number" class="section1" id="email">
             </form>
             <div class="modal2">
                 <form action="php">
-                    <input type="password" placeholder="Password" id="pass">
+                    <input type="password" placeholder="Password" class="section1" id="pass">
                 </form>
             </div>
             <div class="btn">
-                <button type="submit" id="login">
+                <button type="submit" id="login" class="section1">
                     Log In
                 </button>
                 <p id="forgot"><a href="pass">Forgotten Password?</a></p>
                 <hr>
             </div>
             <div class="btn">
-                <a href="signup/index.html"><button id="new">Create New Account</button></a>
+                <a href="signup/index.html"><button id="new" class="section1">Create New Account</button></a>
             </div>
-           </div>
         </div>
-    </div>
-    <footer>
-        <span>
+        <span id="foot">
             <a href="note">Create a page</a> for celebrity brand or business
         </span>
-    </footer>
+        </div>
+    </div>
 </body>
 </html>
