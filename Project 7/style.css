@@ -82,7 +82,7 @@ header img {
     flex-direction: column;
 }
 
-#span {
+.span{
     font-size: 15px;
     color: gray;
     margin-top: 4px;
