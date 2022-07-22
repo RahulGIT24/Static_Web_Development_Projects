@@ -1,0 +1,100 @@
+:root {
+    --maincolor: #00f304;
+    --mainfont: rgb(89, 89, 89);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: whitesmoke;
+
+}
+
+header {
+    margin-top: 46px;
+    font-style: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 29px;
+}
+
+li {
+    list-style: none;
+    padding-left: 111px;
+    padding-right: 43px;
+    list-style: none;
+    font-size: 17px;
+    margin-left: -11px;
+}
+
+li a{
+    color: var(--mainfont);
+    text-decoration: none;
+}
+
+#koot {
+    color: var(--maincolor);
+    font-weight: bolder;
+    font-size: 34px;
+    margin-right: 88px;
+}
+
+.btn {
+    background: var(--maincolor);
+    color: white;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 91px;
+    height: 37px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.leftbox {
+    color: rgb(0, 0, 0);
+    width:80vh;
+}
+
+.leftbox p{
+    color: var(--mainfont);
+    margin-top: 40px;
+    font-size: 26px;
+}
+#heading{
+    font-size: 65px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
+
+#btn2{
+    margin-top: 45px;
+}
+
+.rightbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    box-shadow: 4px 4px green;
+}
